@@ -38,6 +38,16 @@
        url('../fonts/marck-script-v10-latin-regular.svg#MarckScript') format('svg'); /* Legacy iOS */
 }
 
+header{
+}
+
+footer{
+  background-color: #e8e8e8;
+}
+
+.wrapper{
+  background-color: #fbebea;
+}
 .top-menu{
   font-family: PTSans;
   font-size: 6.5px;
@@ -45,6 +55,13 @@
   font-stretch: normal;
   font-style: normal;
   color: #2d2829;
+}
+
+.content1{
+  background-image: url(../images/block1/decorTort1.png),
+url(../images/block1/decorIcon1.svg),
+url(../images/block1/decorIcon2.svg);
+background-repeat: no-repeat;
 }
 
 .header1{
@@ -61,6 +78,9 @@
   color: #2e2829;
 }
 
+.ourTorts{
+}
+
 .header2{
   width: 126.5px;
  height: 17.5px;
@@ -74,6 +94,11 @@
  text-align: left;
  color: #2d2829;
 }
+
+.individualOrder{
+
+}
+
 .header3{
   width: 235.5px;
   height: 19.5px;
@@ -87,6 +112,7 @@
   text-align: left;
   color: #2d2829;
 }
+
 .header4{
   width: 84px;
   height: 15px;
@@ -100,6 +126,25 @@
   text-align: left;
   color: #2d2829;
 }
+
+.order{
+  background-color: #cb4b50;
+}
+
+.headerOrder{
+  width: 127px;
+  height: 15px;
+  font-family: PlayfairDisplay;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.65;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
 .header5{
   width: 207px;
 height: 17.5px;
