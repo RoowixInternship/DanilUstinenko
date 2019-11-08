@@ -64,7 +64,7 @@ url(../images/block1/decorIcon2.svg);
 background-repeat: no-repeat;
 }
 
-.header1{
+.cakesToOrder{
   width: 177px;
   height: 64px;
   font-family: PlayfairDisplay;
@@ -78,10 +78,9 @@ background-repeat: no-repeat;
   color: #2e2829;
 }
 
-.ourTorts{
-}
 
-.header2{
+
+.ourTorts{
   width: 126.5px;
  height: 17.5px;
  font-family: PlayfairDisplay;
@@ -99,7 +98,7 @@ background-repeat: no-repeat;
 
 }
 
-.header3{
+.individualOrderHead{
   width: 235.5px;
   height: 19.5px;
   font-family: PlayfairDisplay;
@@ -113,7 +112,7 @@ background-repeat: no-repeat;
   color: #2d2829;
 }
 
-.header4{
+.review{
   width: 84px;
   height: 15px;
   font-family: PlayfairDisplay;
@@ -145,7 +144,7 @@ background-repeat: no-repeat;
   color: #ffffff;
 }
 
-.header5{
+.advantages{
   width: 207px;
 height: 17.5px;
 font-family: PlayfairDisplay;
