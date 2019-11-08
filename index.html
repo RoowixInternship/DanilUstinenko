@@ -23,7 +23,7 @@
 					<li><a href="/how/">как заказать</a></li>
 					<li><a href="/contacts/">контакты</a></li>
 				</ul>
-				<a href="tel:+7 906 899 92 96	">+7 906 899 92 96</a>
+				<a href="tel:+7 906 899 92 96">+7 906 899 92 96</a>
 			</nav>
 		</header>
 
@@ -81,23 +81,25 @@
 		</section>
 
 		<section class="individualOrder">
+			<h3 class="header3">Индивидуальный заказ</h3>
+			<p>Соберите торт в 3 шага</p>
 
 			<section>
-				<h3 class="header3">Индивидуальный заказ</h3>
-				<p>Соберите торт в 3 шага</p>
-				<h3>01 Выберите начинку</h3>
-				<section>
-					<img src="http://placehold.it/171x174">
-					<h6>Шоколадный ганаш</h6>
-					<p>Ароматный шоколадный бисквит, густой шоколадный крем – самый шоколадный из всех возможных десертов!</p>
-					<p>1000 руб/кг</p>
-				</section>
+				<h4>01 Выберите начинку</h4>
+				<div>
+					<section>
+						<img src="http://placehold.it/171x174">
+						<h6>Шоколадный ганаш</h6>
+						<p>Ароматный шоколадный бисквит, густой шоколадный крем – самый шоколадный из всех возможных десертов!</p>
+						<p>1000 руб/кг</p>
+					</section>
+				</div>
 				<button>ВЫБРАТЬ</button>
 				<p>1/12</p>
 			</section>
 
 			<section>
-				<h3>02 Размер</h3>
+				<h4>02 Размер</h4>
 				<p>17-18 см (1 кг – 6 персон)</p>
 				<p>23-24 см (10–12 персон)</p>
 				<p>Два яруса 25 и 20 см (15–20 персон)</p>
@@ -105,19 +107,23 @@
 			</section>
 
 			<section>
-				<h3>03 Оформление</h3>
-				<section>
-					<button>
-						<img src="http://placehold.it/161x216">
-						<span>Ягодное ассорти</span>
-						<span>700 руб/кг</span>
-					</button>
-					<button>
-						<img src="http://placehold.it/161x216">
-						<span>Маршмэллоу</span>
-						<span>600 руб/кг</span>
-					</button>
-				</section>
+				<h4>03 Оформление</h4>
+				<div>
+					<section>
+						<button>
+							<img src="http://placehold.it/161x216">
+							<span>Ягодное ассорти</span>
+							<span>700 руб/кг</span>
+						</button>
+					</section>
+					<section>
+						<button>
+							<img src="http://placehold.it/161x216">
+							<span>Маршмэллоу</span>
+							<span>600 руб/кг</span>
+						</button>
+					</section>
+				</div>
 				<p>2/35</p>
 				<form>
 					<label for="filling">Начинка</label>
@@ -197,17 +203,21 @@
 
 		<section>
 			<h3 class="headers3black">Контакты</h3>
-			<span>Остались вопросы</span>
+			<span>Остались вопросы?</span>
 			<p>Заполните форму ниже и наш кондитер свяжется с Вами</p>
 			<form>
-				<input type="text" name="name" placeholder="Ваше имя">
-				<input type="text" name="email" placeholder="Email адрес">
-				<input type="text" name="question" placeholder="Ваш вопрос">
+				<label for="name">Имя</label>
+				<input type="text" name="name" placeholder="Ваше имя" id="name">
+				<label for="email">Email</label>
+				<input type="text" name="email" placeholder="Email адрес" id="email">
+				<label for="question">Вопрос</label>
+				<input type="text" name="question" placeholder="Ваш вопрос" id="question">
+				<button type="submit">Отправить</button>
 			</form>
-			<a href="/" <button type="submit">Отправить</button></a>
+
 
 			<p>Или позвоните по телефону: <a href="tel:+7 906 899 92 96">+7 906 899 92 96</a>
-				Наша почта : <a>bakerybypavel@mail.ru</a>
+				Наша почта : <a href="mailto:bakerybypavel@mail.ru">bakerybypavel@mail.ru</a>
 			</p>
 			<p>Мы в соц. сетях:</p>
 			<a href="/instagramm"><img src="http://placehold.it/32x32"></a>
@@ -219,7 +229,7 @@
 	<footer>
 		<h3>Cakes</h3>
 		<ul class="footer-menu">
-			<li><a href="/our torts/">наши торты</a></li>
+			<li><a href="/torts/">наши торты</a></li>
 			<li><a href="/order/">индивидуальный заказ</a></li>
 			<li><a href="/review/">отзывы</a></li>
 			<li><a href="/aboutus/">о нас</a></li>
