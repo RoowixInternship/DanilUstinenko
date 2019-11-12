@@ -57,13 +57,45 @@ footer{
   color: #2d2829;
 }
 
+.top-menu li a{
+  color: #2d2829;
+  text-decoration: none;
+}
+
 .content1{
   background-image: url(../images/block1/decorTort1.png),
 url(../images/block1/decorIcon1.svg),
 url(../images/block1/decorIcon2.svg);
+background-size: 686px 4645px, 28px 28px, 28px 28px;
 background-repeat: no-repeat;
 }
 
+.content1 span{
+width: 129.5px;
+height: 21.5px;
+font-family: MarckScript;
+font-size: 20.5px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.9;
+letter-spacing: normal;
+text-align: left;
+color: #32313d;
+}
+.content1 p{
+width: 40px;
+height: 16px;
+font-family: PTSans;
+font-size: 7px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.29;
+letter-spacing: normal;
+text-align: left;
+color: #000000;
+}
 .cakesToOrder{
   width: 177px;
   height: 64px;
@@ -78,11 +110,42 @@ background-repeat: no-repeat;
   color: #2e2829;
 }
 
+.cakeSelection{
 
+}
+
+.cakeSelection h4{
+  width: 71px;
+  height: 9px;
+  font-family: PTSans;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3.06;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2d2829;
+}
+
+.cakeSelection span{
+width: 34px;
+height: 9px;
+opacity: 0.7;
+font-family: PTSans;
+font-size: 10px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 3.68;
+letter-spacing: normal;
+text-align: left;
+color: rgba(45, 40, 41, 0.7);
+}
 
 .ourTorts{
-  width: 126.5px;
- height: 17.5px;
+  width: 127px;
+ height: 18px;
  font-family: PlayfairDisplay;
  font-size: 20px;
  font-weight: bold;
@@ -98,9 +161,31 @@ background-repeat: no-repeat;
 
 }
 
+.ChooceFilling{
+  background-color: #ffffff;
+}
+
+.sizeTorts{
+  background-color: #ffffff;
+  background-image: url(../images/block3/1.png),
+url(../images/block3/1.png),
+url(../images/block3/2.png),
+url(../images/block3/3.png),
+url(../images/block3/4.png);
+background-size: 55px 55px, 77px 77px, 87px 87px, 100px 101px;
+background-repeat: no-repeat;
+}
+
+.decorTort{
+background-color: #ffffff;
+background-image: url(../images/block3/decor.png);
+background-size: 126px 167px;
+background-repeat: no-repeat;
+}
+
 .individualOrderHead{
-  width: 235.5px;
-  height: 19.5px;
+  width: 236px;
+  height: 20px;
   font-family: PlayfairDisplay;
   font-size: 20px;
   font-weight: bold;
