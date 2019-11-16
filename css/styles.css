@@ -64,17 +64,17 @@ footer{
 
 .content1{
   background-image: url(../images/block1/decorTort1.png),
-url(../images/block1/decorIcon1.svg),
+                    url(../images/block1/decorIcon1.svg),
 url(../images/block1/decorIcon2.svg);
 background-size: 686px 4645px, 28px 28px, 28px 28px;
 background-repeat: no-repeat;
 }
 
 .content1 span{
-width: 129.5px;
-height: 21.5px;
-font-family: MarckScript;
-font-size: 20.5px;
+width: 130px;
+height: 22px;
+font-family: 'Marck Script';
+font-size: 21px;
 font-weight: normal;
 font-stretch: normal;
 font-style: normal;
@@ -157,23 +157,59 @@ color: rgba(45, 40, 41, 0.7);
  color: #2d2829;
 }
 
-.individualOrder{
+.individual-order{
 
 }
 
-.ChooceFilling{
+.filling{
   background-color: #ffffff;
+}
+
+.filling h6{
+  width: 87px;
+height: 8px;
+font-family: PTSans;
+font-size: 10px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 2.73;
+letter-spacing: 0.1px;
+text-align: left;
+color: #2f2f2f;
+}
+
+.filling h4{
+  width: 67px;
+  height: 28px;
+  font-family: PlayfairDisplay;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: 0.14px;
+  text-align: left;
+  color: #f50049;
+}
+
+.filling h4 span{
+  width: 29px;
+height: 16px;
+font-family: PlayfairDisplay;
+font-size: 29px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 2.63;
+letter-spacing: 0.29px;
+text-align: left;
+color: #f50049;
 }
 
 .sizeTorts{
   background-color: #ffffff;
-  background-image: url(../images/block3/1.png),
-url(../images/block3/1.png),
-url(../images/block3/2.png),
-url(../images/block3/3.png),
-url(../images/block3/4.png);
-background-size: 55px 55px, 77px 77px, 87px 87px, 100px 101px;
-background-repeat: no-repeat;
+
 }
 
 .decorTort{
@@ -183,7 +219,7 @@ background-size: 126px 167px;
 background-repeat: no-repeat;
 }
 
-.individualOrderHead{
+.individual-order__header{
   width: 236px;
   height: 20px;
   font-family: PlayfairDisplay;

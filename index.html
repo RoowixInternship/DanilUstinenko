@@ -80,41 +80,54 @@
 			</a>
 		</section>
 
-		<section class="individualOrder">
-			<h3 class="individualOrderHead">Индивидуальный заказ</h3>
-			<p>Соберите торт в 3 шага</p>
+		<section class="individual-order">
+			<h3 class="individual-order__header">Индивидуальный заказ</h3>
+			<p class="individual-order__subheader">Соберите торт в 3 шага</p>
 
-			<section class = "ChooceFilling">
-				<h4>01 Выберите начинку</h4>
-				<div>
-					<section>
-						<img src="./images/block3/ganash.jpg">
-						<h6>Шоколадный ганаш</h6>
-						<p>Ароматный шоколадный бисквит, густой шоколадный крем – самый шоколадный из всех возможных десертов!</p>
-						<p>1000 руб/кг</p>
-					</section>
+			<section class="filling">
+				<h4 class="filling__header"><span class="filling__header-order">01</span> Выберите начинку</h4>
+				<div class="slider">
+					<button type="button">листать влево</button>
+					<button type="button">листать вправо</button>
+					<div class="slider__inner-wrapper">
+						<div class="slider__item">
+							<img src="./images/block3/ganash.jpg">
+							<div class="slider__info-wrapper">
+								<h6 class="slider__item-header">Шоколадный ганаш</h6>
+								<p class="slider__item-description">Ароматный шоколадный бисквит, густой шоколадный крем – самый шоколадный из всех возможных десертов!</p>
+								<p class="slider__item-cost">1000 руб/кг</p>
+								<button>ВЫБРАТЬ</button>
+							</div>
+							<p>1/12</p>
+						</div>
+					</div>
 				</div>
-				<button>ВЫБРАТЬ</button>
-				<p>1/12</p>
 			</section>
 
-			<section class = "sizeTorts">
-				<h4>02 Размер</h4>
-				<button>
-					<p>17-18 см (1 кг – 6 персон)</p>
-				</button>
-				<button>
-					<p>23-24 см (10–12 персон)</p>
-				</button>
-				<button>
-				<p>Два яруса 25 и 20 см (15–20 персон)</p>
-			</button>
-			<button>
-				<p>Три яруса 30,25 и 18 см (25–30 персон)</p>
-			</button>
+			<section class="sizes individual-order__step">
+				<h4 class="sizes__header"><span class="sizes__header-order">02</span>Размер</h4>
+				<div class="sizes__list">
+					<button class = "sizes__item">
+						<img src = "./images/block3/1.png"></img>
+						17-18 см (1 кг – 6 персон)
+					</button>
+					<button class = "sizes__item">
+						<img src = "./images/block3/2.png"></img>
+						23-24 см (10–12 персон)
+					</button>
+					<button class = "sizes__item">
+						<img src = "./images/block3/3.png"></img>
+						Два яруса 25 и 20 см (15–20 персон)
+					</button>
+					<button class = "sizes__item">
+						<img src = "./images/block3/4.png"></img>
+						Три яруса 30,25 и 18 см (25–30 персон)
+					</button>
+				</div>
+
 			</section>
 
-			<section class = "decorTort">
+			<section class="decorTort">
 				<h4>03 Оформление</h4>
 				<div>
 					<article>
@@ -134,6 +147,7 @@
 				</div>
 				<p>2/35</p>
 				<form>
+					<legend>Ваш выбор</legend>
 					<label for="filling">Начинка</label>
 					<input type="text" name="q" placeholder="Шоколадный Ганаш" id="filling">
 					<label for="size">Размер</label>
