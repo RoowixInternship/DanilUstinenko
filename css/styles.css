@@ -315,6 +315,7 @@ body {
   margin: 0 auto;
   background: #fbebea;
   max-width: 1366px;
+
 }
 
 .wrapper {
@@ -322,6 +323,10 @@ body {
 }
 
 .top-menu {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 0;
   margin: 0;
 }
@@ -361,6 +366,44 @@ body {
 .top-menu__item-link {
   text-decoration: none;
   color: #2d2829;
+}
+
+.preview{
+  background-image: url(../images/block1/decorTort1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-position: right; */
+  background-position-y: center;
+  background-position-x: 330%;
+  padding: 141px 0 315px 0px;
+}
+
+.preview__header{
+  /* text-align: left; */
+  /* margin: 164px 0 32px; */
+  /* margin: 0; */
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 79px;
+  font-weight: bold;
+  color: #2e2829;
+}
+
+.preview__subheader{
+  /* text-align: left; */
+  /* margin: 0 0 54px; */
+  font-family: 'Marck Script', 'Times New Roman', cursive;
+  font-size: 41px;
+  font-weight: normal;
+  color: #32313d;
+}
+
+.preview__button{
+  width: 226px;
+  height: 51px;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  box-shadow: none;
 }
 
 .individual-order__header {
