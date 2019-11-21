@@ -315,7 +315,6 @@ body {
   margin: 0 auto;
   background: #fbebea;
   max-width: 1366px;
-
 }
 
 .wrapper {
@@ -369,7 +368,7 @@ body {
   color: #2d2829;
 }
 
-.preview{
+.preview {
   background-image: url(../images/block1/decorTort1.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -379,7 +378,7 @@ body {
   padding: 141px 0 315px 0px;
 }
 
-.preview__header{
+.preview__header {
   /* text-align: left; */
   /* margin: 164px 0 32px; */
   /* margin: 0; */
@@ -393,7 +392,7 @@ body {
   margin: 0;
 }
 
-.preview__subheader{
+.preview__subheader {
   /* text-align: left; */
   /* margin: 0 0 54px; */
   font-family: 'Marck Script', 'Times New Roman', cursive;
@@ -403,7 +402,7 @@ body {
   margin: 32px 0 0;
 }
 
-.preview__button{
+.preview__button {
   /* margin-top: 54px; */
   width: 226px;
   height: 51px;
@@ -414,27 +413,24 @@ body {
   margin: 54px 0 0px;
 }
 
-.preview__info-wrapper{
+.preview__info-wrapper {
   display: flex;
   justify-content: space-between;
   margin-top: 128px;
   width: 459px;
 }
 
-.preview__info-ingredient{
+.preview__info-ingredient {
   background-size: 55px 55px;
   background-repeat: no-repeat;
   background-image: url('../images/block1/decorIcon1.svg');
-
   padding-left: 67px;
   padding-top: 17px;
   padding-bottom: 10px;
-
   font-size: 14px;
-
 }
 
-.preview__info-delivery{
+.preview__info-delivery {
   background-size: 55px 55px;
   background-repeat: no-repeat;
   background-image: url('../images/block1/decorIcon2.svg');
@@ -442,12 +438,10 @@ body {
   padding-left: 67px;
   padding-top: 17px;
   padding-bottom: 10px;
-
   font-size: 14px;
-
 }
 
-.our-torts__header{
+.our-torts__header {
   font-family: 'Playfair Display', 'Times New Roman', serif;
   font-size: 40px;
   font-weight: bold;
@@ -455,17 +449,33 @@ body {
   margin-bottom: 63px;
 }
 
-.our-torts__list{
+.our-torts__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: stretch;
 }
 
-.our-torts__item-wrapper{
+.our-torts__item-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.our-torts__item {
+  position: relative;
+  text-decoration: none;
+  margin-bottom: 44px;
+}
+
+.our-torts__item-watch {
+  display: block;
+  color: #2d2829;
+  font-size: 20px;
+}
+
+.our-torts__item-img {
+  position: absolute;
 }
 
 .individual-order__header {
