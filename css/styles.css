@@ -447,6 +447,27 @@ body {
 
 }
 
+.our-torts__header{
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 66px;
+  margin-bottom: 63px;
+}
+
+.our-torts__list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+}
+
+.our-torts__item-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .individual-order__header {
   margin: 0 0 16px;
   font-family: 'Playfair Display', 'Times New Roman', serif;
