@@ -56,9 +56,15 @@ gulp.task("images", function () {
         .pipe(gulp.dest("build/images"));
 });
 
+gulp.task("fonts", function () {
+    return gulp.src("source/fonts/*.{woff2,woff}")
+        .pipe(gulp.dest("build/fonts"));
+});
+
 gulp.task("build", function (done) {
     run(
         "clear",
+        "fonts",
         "css",
         "images",
         "html",

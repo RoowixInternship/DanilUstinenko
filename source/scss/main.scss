@@ -8,6 +8,10 @@ html {
   box-sizing: border-box;
 }
 
+.wrapper{
+  padding: 72px 72px;
+}
+
 *,
 *::after,
 *::before {
@@ -16,6 +20,7 @@ html {
 
 
 .button {
+  background: transparent;
   padding: 21px 61px;
   background-color: #f50049;
   color: #ffffff;

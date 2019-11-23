@@ -32,11 +32,12 @@
 .preview__button {
   width: 226px;
   height: 51px;
-  background: transparent;
+  // background: transparent;
   border: none;
-  border-radius: 50%;
+  border-radius: 25px;
   box-shadow: none;
   margin: 54px 0 0px;
+  display: block;
 }
 
 .preview__info-wrapper {
