@@ -1,0 +1,69 @@
+.preview {
+  background-image: url(../images/block1/decorTort1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  background-position-y: center;
+  background-position-x: 330%;
+  padding: 141px 0 315px 0px;
+}
+
+.preview__header {
+
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 79px;
+  line-height: 70px;
+  width: 353px;
+  letter-spacing: 6px;
+  font-weight: bold;
+  color: #2e2829;
+  margin: 0;
+}
+
+.preview__subheader {
+
+  font-family: 'Marck Script', 'Times New Roman', cursive;
+  font-size: 41px;
+  font-weight: normal;
+  color: #32313d;
+  margin: 32px 0 0;
+}
+
+.preview__button {
+  width: 226px;
+  height: 51px;
+  // background: transparent;
+  border: none;
+  border-radius: 25px;
+  box-shadow: none;
+  margin: 54px 0 0px;
+  display: block;
+}
+
+.preview__info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 128px;
+  width: 459px;
+}
+
+.preview__info-ingredient {
+  background-size: 55px 55px;
+  background-repeat: no-repeat;
+  background-image: url('../images/block1/decorIcon1.svg');
+  padding-left: 67px;
+  padding-top: 17px;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.preview__info-delivery {
+  background-size: 55px 55px;
+  background-repeat: no-repeat;
+  background-image: url('../images/block1/decorIcon2.svg');
+
+  padding-left: 67px;
+  padding-top: 17px;
+  padding-bottom: 10px;
+  font-size: 14px;
+}

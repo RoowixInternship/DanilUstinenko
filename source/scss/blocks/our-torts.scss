@@ -1,0 +1,40 @@
+.our-torts__header {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 66px;
+  margin-bottom: 63px;
+}
+
+.our-torts__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+}
+
+.our-torts__item-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.muss-and-wedding-wrapper{
+  margin-left: 43px;
+}
+
+.our-torts__item {
+  position: relative;
+  text-decoration: none;
+  margin-bottom: 44px;
+}
+
+.our-torts__item-watch {
+  display: block;
+  color: #2d2829;
+  font-size: 20px;
+}
+
+.our-torts__item-img {
+  position: absolute;
+}

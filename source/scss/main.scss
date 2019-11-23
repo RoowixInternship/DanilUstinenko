@@ -1,0 +1,33 @@
+body {
+  margin: 0 auto;
+  background: #fbebea;
+  max-width: 1366px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.wrapper{
+  padding: 72px 72px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit
+}
+
+
+.button {
+  background: transparent;
+  padding: 21px 61px;
+  background-color: #f50049;
+  color: #ffffff;
+  border: none;
+  box-shadow: 0px 5px 7px 1px rgba(255, 0, 67, 0.3);
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-family: 'Pt Sans', 'Arial', sans-serif;
+  font-size: 13px;
+}
